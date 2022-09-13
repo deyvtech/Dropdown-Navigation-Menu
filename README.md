@@ -45,8 +45,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Geeko24/intro-section-with-dropdown-navigation-main.git)
-- Live Site URL: [Add live site URL here](https://intro-section-with-dropdown-navigation-main-vert.vercel.app/#)
+- Solution URL: [Git Hub Source](https://github.com/Geeko24/intro-section-with-dropdown-navigation-main.git)
+- Live Site URL: [Live Site](https://intro-section-with-dropdown-navigation-main-vert.vercel.app/#)
 
 ## My process
 
