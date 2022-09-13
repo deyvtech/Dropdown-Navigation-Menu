@@ -25,18 +25,60 @@
 </head>
 
 <body>
+  <div class="mobile-sidebar">
+    <div class="mobile-close-menu">
+      <img src="/images/icon-close-menu.svg" alt="">
+    </div>
+  <nav>
+    <ul class="mobile-list">
+      <li  class="btn-mobile-1" data-target=".sub-menu-mobile-1"> <a href="#">Features
+        <span class="arrow"><img src="/images/icon-arrow-down.svg" alt=""></span> 
+       </a> 
+       <ul class="sub-menu-mobile-1" id="sub-mobile-menu">
+         <li><img src="/images/icon-todo.svg" alt=""> <span class="span"> Todo List  </span></li>
+         <li>
+           <img src="/images/icon-calendar.svg" alt="">
+            <span class="span"> Calendar  </span>
+          
+        
+        </li>
+         <li ><img src="/images/icon-reminders.svg" alt=""> <span class="span"> Reminders  </span></li>
+         <li><img src="/images/icon-planning.svg" alt=""> <span class="span"> Planning  </span></li>
+       </ul>
+     </li>
+     <li class="btn-mobile-2" data-target=".sub-menu-mobile-2"><a href="#">Company <span class="arrow"><img src="/images/icon-arrow-down.svg" alt=""></span> </a>
+     
+       <ul class="sub-menu-mobile-2" id="sub-mobile-menu">
+         <li>History</li>
+         <li>Our Team</li>
+         <li>Blog</li>
+       </ul>
+     
+     
+     </li>
+     <li> <a href="#">Careers</a> </li>
+     <li> <a href="#">About</a> </li>
+   </ul>
+    </ul>
+  </nav>
+  <div class="header-mobile-btn">
+    <div><a href="#">Login</a></div>
+    <div><a href="#" class="btn-mobile-reg">Register</a></div>
+  </div>
+  </div>
+
   <header>
     <div class="header-container">
     <div class="header-logo">
       <img src="/images/logo.svg" alt="">
     </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-target=".mobile-sidebar">
             <img src="/images/icon-menu.svg" alt="">
         </div>
 
     <nav class="navlist">
       <ul class="list">
-        <li  class="btn-1" data-target=".sub-menu-1" id="lists"> <a href="#">Features
+        <li  class="btn-1" data-target=".sub-menu-1"> <a href="#">Features
            <span class="arrow"><img src="/images/icon-arrow-down.svg" alt=""></span> 
           </a> 
           <ul class="sub-menu-1" id="sub-menu">
@@ -51,7 +93,7 @@
             <li><img src="/images/icon-planning.svg" alt=""> <span class="span"> Planning  </span></li>
           </ul>
         </li>
-        <li class="btn-2" data-target=".sub-menu-2" id="lists"><a href="#">Company <span class="arrow"><img src="/images/icon-arrow-down.svg" alt=""></span> </a>
+        <li class="btn-2" data-target=".sub-menu-2"><a href="#">Company <span class="arrow"><img src="/images/icon-arrow-down.svg" alt=""></span> </a>
         
           <ul class="sub-menu-2" id="sub-menu">
             <li>History</li>
@@ -61,8 +103,8 @@
         
         
         </li>
-        <li id="lists"> <a href="#">Careers</a> </li>
-        <li id="lists"> <a href="#">About</a> </li>
+        <li> <a href="#">Careers</a> </li>
+        <li> <a href="#">About</a> </li>
       </ul>
     </nav>
     <div class="header-btn">
